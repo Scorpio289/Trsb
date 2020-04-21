@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE web-app
+PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+"http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <servlet>
+        <display-name>fileupload</display-name>
+        <description>fileupload</description>
+        <servlet-name>FileUpload</servlet-name>
+        <servlet-class>com.fileUpload.FileUpload</servlet-class>
+    </servlet>
+
+    <servlet>
+        <display-name>link to python</display-name>
+        <description>jsp -> java -> python</description>
+        <servlet-name>Bean</servlet-name>
+        <servlet-class>com.linkToPython.Bean</servlet-class>
+    </servlet>
+
+    <servlet>
+        <display-name>My Web Application</display-name>
+	    <description>
+		An application for test
+    	</description>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>test.HelloWorld</servlet-class>
+    </servlet>
+
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the description of my J2EE componen</display-name>
+        <servlet-name>LoginC1</servlet-name>
+        <servlet-class>com.helloworld.LoginC1</servlet-class>
+    </servlet>
+
+    
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the description of my J2EE componen</display-name>
+        <servlet-name>Welcome</servlet-name>
+        <servlet-class>com.helloworld.Welcome</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FileUpload</servlet-name>
+        <url-pattern>/FileUpload</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Bean</servlet-name>
+        <url-pattern>/Bean</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>HelloWorld</servlet-name>
+        <url-pattern>/HelloWorld</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>LoginC1</servlet-name>
+        <url-pattern>/LoginC1</url-pattern>
+    </servlet-mapping> 
+
+    <servlet-mapping>
+        <servlet-name>Welcome</servlet-name>
+        <url-pattern>/Welcome</url-pattern>
+    </servlet-mapping>
+    
+    
+	
+</web-app>
